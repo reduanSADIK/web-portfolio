@@ -15,22 +15,16 @@ h2{
 p{
     color: dimgrey;
 }
-.name-highlight{
+.skyblue-highlight{
 
     color: rgb(0, 204, 255);
 }
-.first-row{
+
+.row{
 
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 3%;
-}
-.second-row{
-
-    width: 40%;
-    float: left;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-left: 3%;
 }
 
@@ -43,6 +37,7 @@ p{
 
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-top: 5px;
 }
 section{
     height: 500px;
@@ -67,4 +62,36 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.single-experience{
+
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 8px;
+}
+.experience{
+
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#full-stack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 255, 255), blue) ;
+    border-image-slice: 1;
+}
+#foot{
+
+    text-align: center;
+    font-size: 20px;
 }
